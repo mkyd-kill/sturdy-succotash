@@ -1,5 +1,25 @@
 * {
-    font-size: 1.3rem;
-    margin: 20px;
+    font-size: 1.2rem;
+    margin: 10px;
     text-align: center;
+}
+
+body {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    background-color: lightcyan;
+}
+
+#author {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.card-header {
+    background-color: bisque;
 }

@@ -8,15 +8,22 @@
     <script src="load.js"></script>
     <script src="quotes.js"></script>
 
-    <title>Quote Generator🤘🔥</title>
+    <title>Quote Generator🔥</title>
 </head>
 <body>
-    <wrapper id="quote-box">
-        <div id="text"></div>
-        <div id="author"></div>
-        <button id="new-quote" onclick="generateQuote()" class="btn btn-success">New Quote</button>
-        <a id="tweet-quote" class="btn btn-primary" href="#" target="_blank" rel="noopener noreferrer">Tweet Quote</a>
-    </wrapper>
+    <div class="container">
+        <wrapper id="quote-box">
+            <div class="card">
+                <h5 class="card-header">Random Quote Machine</h5>
+                <div class="card-body">
+                  <p class="card-text"><div id="text"></div><p>
+                    <div id="author"></div>
+                    <button id="new-quote" onclick="generateQuote()" class="btn btn-success">New Quote</button>
+                    <a id="tweet-quote" class="btn btn-primary" href="#" target="_blank" rel="noopener noreferrer">Tweet Quote</a>
+                </div>
+              </div>
+        </wrapper>
+    </div>
 
     <!-- js, jquery and poppers -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
